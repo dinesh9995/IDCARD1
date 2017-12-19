@@ -19,7 +19,7 @@ const instructions = Platform.select({
     'Cmd+D or shake for dev menu',
   android: 
             <View>
-              <Header />
+              <Header style={{ alignSelf: 'center' }} />
               <IDinfo />
             </View>
 });
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#ADD8E6',
   },
   instructions: {
     textAlign: 'center',

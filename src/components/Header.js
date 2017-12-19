@@ -2,13 +2,14 @@ import React from 'react';
 import { Text } from 'react-native';
 
 const Header = () => {
-    return (<Text style={styles.textStyle}>IDCARD</Text>);
+    return (<Text style={styles.textStyle}>MTWLABS</Text>);
 };
 const styles = {
     textStyle: {
-     justifyContent: 'flex-start',
-     alignItems: 'flex-start',
-     fontSize: 50,   
+     alignSelf: 'center',
+     fontSize: 40, 
+     color: 'black',
+     fontFamily: 'elephant',
     }
 
 };
